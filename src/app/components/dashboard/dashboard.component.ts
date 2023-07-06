@@ -9,7 +9,7 @@ export class DashboardComponent implements OnInit {
   @Input() queryParams?: string;
   @Input('id') dashboardId?: string;
   @Input('caption') pageCaption?: string;
-  @Input('searchData') resolvedData?: any;
+  @Input('resolvedData') resolvedData?: any;
   
   ngOnInit(): void {
     console.log("🚀 ~ file: dashboard.component.ts:10 ~ DashboardComponent ~ queryParams:", this.queryParams)
